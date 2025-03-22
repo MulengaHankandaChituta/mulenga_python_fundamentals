@@ -1,4 +1,5 @@
-# pprogram to print some personal information
+"""Write a Python program in a file named myinfo.py that 
+prints(displays)your name,address,and telephone number"""
 name = "mulenga"
 address = "plot 555 lusaka"
 phone_number = 776543
