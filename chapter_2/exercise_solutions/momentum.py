@@ -11,7 +11,12 @@ velocity = int(input("Enter the velocity: "))
 
 momentum = mass * velocity
 
+# calculate the kinetic energy
+
+kinetic_energy = (1/2) * mass * velocity ** 2
+
 # output the results
 
 print("The momentum is ", momentum)
+print("The kinetic energy is ", kinetic_energy)
 
