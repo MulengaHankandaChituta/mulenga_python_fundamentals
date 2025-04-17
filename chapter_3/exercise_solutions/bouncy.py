@@ -10,8 +10,21 @@ the initial height from which the ball is dropped and the number of times the ba
 is allowed to continue bouncing. Output should be the total distance traveled by the
 ball."""
 
-initial_height = int(input("Enter the initial height: "))
+# Declare a constant variable
 
-bounces_allowed = int(input("Enter the bounces allowed: "))
+index = 0.6
+
+# ask the user for input
+
+initial_height = float(input("Enter the initial height: "))
+
+bounces_allowed = float(input("Enter the bounces allowed: "))
+
+while True:
+    distance_traveled = initial_height + 2 * initial_height * index * ((1 - index ** bounces_allowed) / (1 - index))
+    print("The distance traveled is %0.1f "  % distance_traveled,"feet")
+    break
+
+
 
 
