@@ -9,9 +9,9 @@ and shiftright.py, that expect a bit string as input. The script
 shiftleft shifts the bits in its input one place to the rightmost
 position. The script shiftRight performs the inverse operation.
 Each script prints the resulting string. 
-
 """
-# assk the user for input
+
+# ask the user for input
 bit_string = input("Enter a number (e.g., 1011): ")
 
 def shift_left(bits):
