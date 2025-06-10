@@ -22,7 +22,7 @@ def number_lines():
     try:
         with open(input_filename, 'r') as infile, open(output_filename, 'w') as outfile:
             line_number = 1
-            for line infile:
+            for line in infile:
                 # Strip existing newline to add clean line ending later
                 formatted_line = f"{str(line_number).rjust(4)}> {line}"
                 outfile.write(formatted_line)
